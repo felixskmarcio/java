@@ -1,0 +1,16 @@
+{
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": ["lib/**/*.jar"],
+  "cSpell.words": [
+    "codigo",
+    "datade",
+    "datadevencimento",
+    "medio",
+    "nomedo",
+    "nompod",
+    "numerodo",
+    "sabao",
+    "somedocliente"
+  ]
+}
