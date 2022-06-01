@@ -1,4 +1,4 @@
-package src;
+
 
 import javax.swing.JOptionPane;
 
@@ -16,28 +16,29 @@ public class App {
         String porta1;
         String porta2;
         String porta3;
-        int port;
+        int port;        
+        int qtdPortasAbertas;
 
         casa = String.valueOf(JOptionPane.showInputDialog("PROPRIETÁRIO"));
         c1.setCasa(casa);
 
 
-        cor = String.valueOf(JOptionPane.showInputDialog("Qual a cor da casa"));
+        cor = String.valueOf(JOptionPane.showInputDialog("Qual a cor da casa:"));
         c1.setCor(cor);
 
         estado = Integer.parseInt(JOptionPane.showInputDialog("Qual o estado da porta:\n"
                 + "Porta 1\n"
                 + "Porta 2\n"
-                + "Porta 3\n"));
+                + "Porta 3\n"));        
 
         porta1 = String.valueOf(JOptionPane.showInputDialog("Qual o estado da porta 1:\n"));
         p1.setPorta1(porta1);
         porta2 = String.valueOf(JOptionPane.showInputDialog("Qual o estado da porta 2:\n"));
-        p2.setPorta3(porta2);
+        p2.setPorta2(porta2);
         porta3 = String.valueOf(JOptionPane.showInputDialog("Qual o estado da porta 3:\n"));
         p3.setPorta3(porta3);
-
-
+        qtdPortasAbertas = Integer.parseInt(JOptionPane.showInputDialog("Quantas portas estão abertas?"));
+             
         if (estado == 1) {
             p1.setEstado(true);
         } else {
@@ -63,6 +64,7 @@ public class App {
                     + "Porta 1: " + p1.getPorta1() + "\n"
                     + "Porta 2: " + p2.getPorta2() + "\n"
                     + "Porta 3: " + p3.getPorta3() + "\n"
+                    + "Total de portas abertas: " + qtdPortasAbertas + "\n"
                     + "\n"
                     + "Escolha o número que deseja: \n"
                     + "1 - Alterar Proprietário\n"
@@ -82,8 +84,8 @@ public class App {
             porta1 = String.valueOf(JOptionPane.showInputDialog("Qual o estado da porta 1:\n"));
             p1.setPorta1(porta1);
         } else if (port == 4){
-            porta3 = String.valueOf(JOptionPane.showInputDialog("Qual o estado da porta 2:\n"));
-            p3.setPorta3(porta3);
+            porta2 = String.valueOf(JOptionPane.showInputDialog("Qual o estado da porta 2:\n"));
+            p2.setPorta2(porta2);
         } else if (port == 5){
             porta3 = String.valueOf(JOptionPane.showInputDialog("Qual o estado da porta 3:\n"));
             p3.setPorta3(porta3);

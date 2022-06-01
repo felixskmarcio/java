@@ -1,4 +1,3 @@
-package src;
 
 public class Casa {
     // Atributos
@@ -86,18 +85,38 @@ public class Casa {
         }
     }
 
-    public Casa(int numeroDePortas) {
-
-    }
-
     public void pinta(String s) {
         this.cor = s;
 
     }
 
-    int quantasPortasEstaoAbertas() {
-        return 0;
+    public Casa(int p){
+		int totalDePortas = p;			
+		for(int i = 0; i < totalDePortas; i++){
+            this.porta1 = "Aberta";
+            this.porta2 = "Aberta";
+            this.porta3 = "Aberta";
+        } for (int i = 0; i < totalDePortas; i++) {
+            this.porta1 = "Fechada";
+            this.porta2 = "Fechada";
+            this.porta3 = "Fechada";
+        }
+    }        
 
+    int quantasPortasEstaoAbertas(int p) {
+        int totalDePortas = p;
+        for (int i = 0; i < totalDePortas; i++) {
+            if (this.porta1 == "Aberta") {
+                totalDePortas++;
+            }
+            if (this.porta2 == "Aberta") {
+                totalDePortas++;
+            }
+            if (this.porta3 == "Aberta") {
+                totalDePortas++;
+            }
+        }
+        return totalDePortas;
     }
 
 }

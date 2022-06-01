@@ -1,0 +1,16 @@
+{
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": ["lib/**/*.jar"],
+  "cSpell.words": [
+    "funci",
+    "Funcioanrio",
+    "funcionario",
+    "Funcionario",
+    "funcionarios",
+    "funncionário",
+    "getn",
+    "indentification",
+    "setn"
+  ]
+}
