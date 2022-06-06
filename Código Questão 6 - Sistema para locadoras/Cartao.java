@@ -6,4 +6,6 @@ public class Cartao {
 
 	private Data data;
 
+	
+
 }
