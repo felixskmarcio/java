@@ -9,5 +9,5 @@ Software para biblioteca em java, simples. O sistema contém somente as funciona
 - **Java 8**
 
 # Modelagem
-<img src="[https://raw.githubusercontent.com/paulojp-dev/projeto-biblioteca-java/master/imagens/modelagem.png](https://github.com/felixskmarcio/java/blob/main/projeto-final-biblioteca-java/projeto-final-biblioteca-java.jpg)" width="460" />
+<img src="https://raw.githubusercontent.com/paulojp-dev/projeto-biblioteca-java/master/imagens/modelagem.png](https://github.com/felixskmarcio/java/blob/main/projeto-final-biblioteca-java/projeto-final-biblioteca-java.jpg" width="460" />
 
