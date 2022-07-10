@@ -1,5 +1,3 @@
-package src;
-
 public class Porta {
     private boolean estado; // aberta // fechada
     private String cor;
@@ -57,7 +55,7 @@ public class Porta {
         this.intdimensaoZ = intdimensaoZ;
     }
 
-    // Métodos
+// Métodos
     public void mudaEstado() {
         if (isEstado()) {
             this.setEstado(false);
