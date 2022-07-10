@@ -67,9 +67,5 @@ public class Pagamento extends Multa{ // classe Pagamento extends Multa
 
     public void setPix(int pix) {
         this.pix = pix;
-    }
-
-    
-
-    
+    }     
 }

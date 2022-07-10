@@ -1,6 +1,11 @@
+/*  @Marcio Eduardo Felix - 20210554 
+    @Jay Amorim - 20210659
+*/
+
+
+
 package src.model; // 
 import javax.swing.JOptionPane; // Importação da biblioteca JOptionPane
-
 public class App {
     public static void main(String[] args) throws Exception {
         Cliente id1 = new Cliente(null, 0); // cria um objeto do tipo Cliente de id 1
@@ -20,7 +25,7 @@ public class App {
         id = Integer.parseInt(JOptionPane.showInputDialog("Qual o ID do cliente 1:\n")); // pede para o usuário digitar o ID do cliente 1
         mensagem.append("Id cadastrado com sucesso").append("!"); // adiciona uma mensagem ao objeto StringBuilder
         
-        JOptionPane.showMessageDialog(null, mensagem); // mostra a mensagem na tela   
+        JOptionPane.showMessageDialog(null, mensagem); // mostra a mensagem na tela           
         id1.setId(id); // atribui o valor do id ao objeto id1
         nome = String.valueOf(JOptionPane.showInputDialog("Qual o nome do cliente 1:")); // pede para o usuário digitar o nome do cliente 1
         id1.setNome(nome); // atribui o valor do nome ao objeto id1
@@ -42,8 +47,8 @@ public class App {
                         + "Data de nascimento do cliente: " + id1.getDataNasc() + "\n"
                         + "Sexo do cliente: " + id1.getSexo() + "\n"
                         + "CPF do cliente: " + id1.getCpf() + "\n"
-                        + "Endereço do cliente: " + id1.getEndereco() + "\n\n"
-                        + "Numero do Telefone: " + id1.getFone() + "\n"
+                        + "Endereço do cliente: " + id1.getEndereco() + "\n"
+                        + "Numero do Telefone: " + id1.getFone() + "\n\n"
                         + "Escolha o número que deseja: \n"
                         + "1 - Muda Id\n"
                         + "2 - Alterar Nome\n"
