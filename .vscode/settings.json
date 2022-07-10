@@ -1,9 +1,22 @@
 {
-  "java.project.sourcePaths": [
-    "Código Questão 1 - Banco/src",
-    "Código Questão 2 - Agenda de contatos/agcontanto/src",
-    "atividades\\2\\Programa3"
-  ],
+  "java.project.sourcePaths": ["projeto-final-biblioteca-java"],
   "cSpell.ignoreWords": ["contat"],
-  "cSpell.words": ["Estao", "retonar"]
+  "cSpell.words": [
+    "cartao",
+    "cnpj",
+    "descricao",
+    "devolucao",
+    "edicao",
+    "emprestimo",
+    "Emprestimo",
+    "Estao",
+    "etidora",
+    "Etidora",
+    "Marcio",
+    "mysql",
+    "Nasc",
+    "razao",
+    "responsavel",
+    "retonar"
+  ]
 }

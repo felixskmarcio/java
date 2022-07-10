@@ -1,4 +1,3 @@
-/* @author Marcio Eduardo Felix */
 package src.model;
 public class Livro extends Multa{ // classe Livro extends Multa
     
@@ -9,6 +8,7 @@ public class Livro extends Multa{ // classe Livro extends Multa
     private byte edicao;
     private short ano;
     private String disponibilidade;
+
 
     // construtor
     public Livro(int id, String exemplar, String autor, byte edicao, short ano, String disponibilidade) {

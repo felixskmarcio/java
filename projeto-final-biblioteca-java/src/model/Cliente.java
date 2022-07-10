@@ -1,4 +1,3 @@
-/* @author Marcio Eduardo Felix */
 package src.model;
 public class Cliente extends Emprestimo{ // classe Cliente extends Emprestimo
     

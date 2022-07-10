@@ -43,6 +43,7 @@ public class App {
                         + "Sexo do cliente: " + id1.getSexo() + "\n"
                         + "CPF do cliente: " + id1.getCpf() + "\n"
                         + "Endereço do cliente: " + id1.getEndereco() + "\n\n"
+                        + "Numero do Telefone: " + id1.getFone() + "\n"
                         + "Escolha o número que deseja: \n"
                         + "1 - Muda Id\n"
                         + "2 - Alterar Nome\n"
